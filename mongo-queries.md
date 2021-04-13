@@ -1,14 +1,5 @@
 ## MongoDB
 
-#### A database needs to be
-
-- Reliability: Data can always be accessed
-- Efficiency: We could just use files to store the data, but this solution will be slow for any serious program.
-- Scalability: As our demands to get more and more data increases, databases also make it easy to increase our infrastructure capacity
-- Concurrency: We can have many clients connected to our database (program) simultaneously
-- Data abstractions: We can store data using complex data types that make it easy for us to save data without worrying about the underlying details of the implementation.
-- High-level query language: Databases have a language in which we can ask them questions to get the data in whichever way we may need it.
-
 #### The database that we are using is MongoDB. MongoDB is a non-relational database that stores data in collections. It stores data in flexible, JSON-like documents, meaning fields can vary from document to document and over the time the data structure can change.
 
 ### Check if mongo is installed - this way you can also access the mongo shell
@@ -16,9 +7,6 @@
 ```bash
 $ mongo
 ```
-
-
-
 
 #### Terminology :
 
